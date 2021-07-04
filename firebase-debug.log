@@ -1,0 +1,97 @@
+[debug] [2021-07-04T12:50:06.817Z] ----------------------------------------------------------------------
+[debug] [2021-07-04T12:50:06.819Z] Command:       /usr/bin/node /usr/bin/firebase init
+[debug] [2021-07-04T12:50:06.819Z] CLI Version:   9.14.0
+[debug] [2021-07-04T12:50:06.819Z] Platform:      linux
+[debug] [2021-07-04T12:50:06.819Z] Node Version:  v12.22.2
+[debug] [2021-07-04T12:50:06.820Z] Time:          Sun Jul 04 2021 19:50:06 GMT+0700 (Western Indonesia Time)
+[debug] [2021-07-04T12:50:06.820Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-04T12:50:06.824Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-04T12:50:06.825Z] > authorizing via signed-in user (riyanrisky129@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/riyanris/ngawur/ci4kosongan
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2021-07-04T12:50:22.850Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-07-04T12:50:22.851Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-04T12:50:23.417Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Sun, 04 Jul 2021 12:50:23 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-04T12:50:23.430Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+ {"projectId":"ci4cobacoba","name":"ci4cobacoba"}
+[debug] [2021-07-04T12:50:24.954Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 04 Jul 2021 12:50:25 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1337","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-04T12:50:24.957Z] > refreshing access token with scopes: []
+[debug] [2021-07-04T12:50:24.957Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-04T12:50:25.092Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Sun, 04 Jul 2021 12:50:25 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-04T12:50:25.100Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8215822152181104237 [none]
+[debug] [2021-07-04T12:50:26.378Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8215822152181104237 200
+[debug] [2021-07-04T12:50:26.378Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8215822152181104237 {"name":"operations/cp.8215822152181104237"}
+[debug] [2021-07-04T12:50:26.878Z] [Project Creation Poller] Retrying task index 0
+[debug] [2021-07-04T12:50:26.879Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8215822152181104237 [none]
+[debug] [2021-07-04T12:50:28.229Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8215822152181104237 200
+[debug] [2021-07-04T12:50:28.229Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8215822152181104237 {"name":"operations/cp.8215822152181104237","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true}}
+[debug] [2021-07-04T12:50:29.230Z] [Project Creation Poller] Retrying task index 0
+[debug] [2021-07-04T12:50:29.231Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8215822152181104237 [none]
+[debug] [2021-07-04T12:50:30.542Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8215822152181104237 200
+[debug] [2021-07-04T12:50:30.542Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8215822152181104237 {"name":"operations/cp.8215822152181104237","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"484916595281","projectId":"ci4cobacoba","lifecycleState":"ACTIVE","name":"ci4cobacoba","createTime":"2021-07-04T12:50:24.856Z"}}
+[debug] [2021-07-04T12:50:30.545Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-07-04T12:50:30.546Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-04T12:50:30.683Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sun, 04 Jul 2021 12:50:30 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-04T12:50:30.692Z] >>> HTTP REQUEST POST https://firebase.googleapis.com/v1beta1/projects/ci4cobacoba:addFirebase  
+ 
+[debug] [2021-07-04T12:50:33.856Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 04 Jul 2021 12:50:34 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-04T12:50:33.857Z] > refreshing access token with scopes: []
+[debug] [2021-07-04T12:50:33.857Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-04T12:50:33.987Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sun, 04 Jul 2021 12:50:34 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-04T12:50:33.996Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MGEyZTkxZjEtYjgzNC00MWRmLThjYWYtNWJhZmViODE4MDM0 [none]
+[debug] [2021-07-04T12:50:35.398Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MGEyZTkxZjEtYjgzNC00MWRmLThjYWYtNWJhZmViODE4MDM0 200
+[debug] [2021-07-04T12:50:35.400Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MGEyZTkxZjEtYjgzNC00MWRmLThjYWYtNWJhZmViODE4MDM0 {"name":"operations/workflows/MGEyZTkxZjEtYjgzNC00MWRmLThjYWYtNWJhZmViODE4MDM0"}
+[debug] [2021-07-04T12:50:35.901Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2021-07-04T12:50:35.902Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MGEyZTkxZjEtYjgzNC00MWRmLThjYWYtNWJhZmViODE4MDM0 [none]
+[debug] [2021-07-04T12:50:37.129Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MGEyZTkxZjEtYjgzNC00MWRmLThjYWYtNWJhZmViODE4MDM0 200
+[debug] [2021-07-04T12:50:37.129Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MGEyZTkxZjEtYjgzNC00MWRmLThjYWYtNWJhZmViODE4MDM0 {"name":"operations/workflows/MGEyZTkxZjEtYjgzNC00MWRmLThjYWYtNWJhZmViODE4MDM0"}
+[debug] [2021-07-04T12:50:38.130Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2021-07-04T12:50:38.131Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MGEyZTkxZjEtYjgzNC00MWRmLThjYWYtNWJhZmViODE4MDM0 [none]
+[debug] [2021-07-04T12:50:39.152Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MGEyZTkxZjEtYjgzNC00MWRmLThjYWYtNWJhZmViODE4MDM0 200
+[debug] [2021-07-04T12:50:39.153Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MGEyZTkxZjEtYjgzNC00MWRmLThjYWYtNWJhZmViODE4MDM0 {"name":"operations/workflows/MGEyZTkxZjEtYjgzNC00MWRmLThjYWYtNWJhZmViODE4MDM0"}
+[debug] [2021-07-04T12:50:41.153Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2021-07-04T12:50:41.154Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MGEyZTkxZjEtYjgzNC00MWRmLThjYWYtNWJhZmViODE4MDM0 [none]
+[debug] [2021-07-04T12:50:42.420Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MGEyZTkxZjEtYjgzNC00MWRmLThjYWYtNWJhZmViODE4MDM0 200
+[debug] [2021-07-04T12:50:42.420Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MGEyZTkxZjEtYjgzNC00MWRmLThjYWYtNWJhZmViODE4MDM0 {"name":"operations/workflows/MGEyZTkxZjEtYjgzNC00MWRmLThjYWYtNWJhZmViODE4MDM0","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.FirebaseProject","projectId":"ci4cobacoba","projectNumber":"484916595281","displayName":"ci4cobacoba","name":"projects/ci4cobacoba","resources":{"hostingSite":"ci4cobacoba"}}}
+[info] 
+[info] 🎉🎉🎉 Your Firebase project is ready! 🎉🎉🎉
+[info] 
+[info] Project information:
+[info]    - Project ID: ci4cobacoba
+[info]    - Project Name: ci4cobacoba
+[info] 
+[info] Firebase console is available at
+[info] https://console.firebase.google.com/project/ci4cobacoba/overview
+[info] i  Using project ci4cobacoba (ci4cobacoba) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Detected a .git folder at /home/riyanris/ngawur/ci4kosongan 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=287106246&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
